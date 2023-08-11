@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import sys
 
-def main(*argv):
+if __name__ == "__main__":
     i = 0
     l = len(sys.argv) - 1
     if l == 1:
@@ -15,5 +15,5 @@ def main(*argv):
                 print("{}: {}".format(i, args))
                 i += 1
 
-                if __name__ == "__main__":
-                    main()
+
+
